@@ -1,8 +1,7 @@
 # base image
 FROM stfnltnr/hadoop:3.2.0
-# Hadoop Version
+# pig version
 ARG PIG_VERSION=0.17.0 
-ARG SQL_CONNECTOR_VERSION=5.1.48
 # env vars
 ENV PIG_HOME=/opt/pig \
     PIG_CLASSPATH=$HADOOP_CONF_DIR
